@@ -1,1 +1,2 @@
-### scikit-learn v0.24
+### scikit-learn v0.24.1
+
