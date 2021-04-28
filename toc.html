@@ -1,0 +1,264 @@
+<head>
+    <title>Scikit-Learn 0.24.1. - TOC</title>
+</head>
+<body>
+<div style="columns: 3;">
+    
+    <h5>Getting Started</h5>
+    
+    <h5>Linear Models</h5>
+    - Least Squares<br>
+    - Least Squares (Non-Neg)<br>
+    - Ridge Regression, Classification<br>
+    - Ridge Regression w/ CV<br>
+    - Lasso Regression<br>
+    - Lasso Regression (Multitask)<br>
+    - Elastic Net<br>
+    - Elastic Net (Multitask)<br>
+    - Elastic Net w/ CV<br>
+    - Least Angle Regression (LARS)<br>
+    - LARS Lasso<br>
+    - OMP<br>
+    - Bayes Regression<br>
+    - General Linear Regression (GLR)<br>
+    - Tweedie Regression<br>
+    - Stochastic Gradient Descent (SGD)<br>
+    - Perceptrons<br>
+    - Passive Aggressive Algos<br>
+    - RANSAC<br>
+    - Huber<br>
+    - Theil-Sen<br>
+
+    <h5>Logistic Regression (LR)</h5>
+    - Intro<br>
+    - Cross-Validated<br>
+    - Ex: Sparsity vs Penalties<br>
+    - Ex: Regularization vs C<br>
+    - Ex: Multinomial vs OVR<br>
+    - Ex: Document classif<br>
+    - Ex: Multinomial with L1, MNIST<br>
+
+    <h5>Discriminant Analysis</h5>
+    - Intro<br>
+    - Ex: LDA vs PCA (Iris)<br>
+    - Math Basics<br>
+    - Shrinkage<br>
+    - Ex: Covariance, LDA classif<br>
+    - Estimators<br>
+
+    <h5>Kernel Ridge Regression (KRR)</h5>
+    - Intro<br>
+    - Ex: KRR vs SVR<br>
+    - Ex: KRR vs SVR, CPU time<br>
+
+    <h5>Support Vector Machines (SVMs)</h5>
+    - Intro<br>
+    - Class. (SVC, NuSVC, LinearSVC)<br>
+    - Ex: Max margin hyperplane plot<br>
+    - Ex: Binary classif, RBF kernel<br>
+    - Ex: SVM, univarite feature select<br>
+    - Ex: Multiclass classif, SVC, NuSVC<br>
+    - Scoring<br>
+    - Weights<br>
+    - Ex: SVC, Unbalanced classes<br>  
+    - Ex: Weighted samples<br>
+    - SVR (regression)<br>
+    - Ex: SVR - linear/poly/RBF kernels<br>
+    - Computation<br>
+    - RBF kernel params (C, gamma)<br>
+    - Custom kernels<br>
+    - Precomputed kernels - Gram matrix<br>
+    
+    <h5>Stochastic Gradient Descent (SGD)</h5>
+    - Intro<br>
+    - SGD Classif<br>
+    - SGD Classif (Multiclass)<br>
+    - SGD Classif (Weighted)<br>
+    - Averaging<br>
+    - Ex: Solvers (SGD, AGSD, SAG,...)<br>
+    - SGD Regrssn<br>
+    - Sparse Data<br>
+    - Complexity<br>
+    - Stopping & Convergence<br>
+    - Tips<br>
+
+    <h5>K Nearest Neighbors (KNN)</h5>
+    - Intro<br>
+    - BallTree, KDTree, Brute Force<br>
+    - Ex: Basics<br>
+    - Ex: Find Sparse Graph<br>
+    - Radius-Based Classif<br>
+    - Ex: Uniform vs Distance Weights<br>
+    - Radius-Based Regrssn<br>
+    - Ex: Uniform vs Distance Weights<br>
+    - Ex: Upper/Lower Face Matching<br>
+    - KD Tree vs Ball Tree vs Brute Force<br>
+    - Nearest Centroids<br>
+    - Ex: Shrink Thresholds<br>
+    - Radius-based Transformers<br>
+    - Ex: Approx NNs > TSNE<br>
+    - Ex: Caching<br>
+    - Neighborhood Components Analysis<br>
+    - Ex: NCA<br>
+    - NCA Classif<br>
+    - Ex: KNN Classif with/without NCA<br>
+    - NCA vs LDA vs PCA<br>
+
+    <h5>Gaussians</h5>
+    - Intro<br>
+    - Regrssn (GPR)<br>
+    - Ex: GPR w/ noise estimate<br>
+    - GPR vs KRR<br>
+
+    <h5>Cross Decomposition</h5>
+    - Intro/Partial Least Sq. (PLS)<br>
+    - Canonical PLS<br>
+    - SVD PLS<br>
+    - PLS Regrssn (PLSR)<br>
+    - Ex: PLSR / Multivariate<br>
+    - Ex: PLSR / Univariate<br>
+    - Canonical Correlation Analysis (CCA)<br>
+    - Ex: PCR vs PLSR<br>
+
+    <h5>Naive Bayes (NB)</h5>
+    - Intro<br>
+    - NB Classif (Gaussian)<br>
+    - NB Classif (Multinomial)<br>
+    - NB Classif (Complement)<br>
+    - NB Classif (Bernoulli)<br>
+    - Categorical NB<br>
+    - Out-of-core NB<br>
+
+    <h5>Decision Trees (DTs)</h5>
+    - Intro<br>
+    - DT Classifiers<br>
+    - Graphviz<br>
+    - Ex: DTs, Iris<br>
+    - DT Regression<br>
+    - Multi-output DTs<br>
+    - Ex: Multi-output DT Rgressn<br>
+    - Ex: Face Image Completion<br>
+    - Complexity<br>
+    - ID3, C4.5, C5.0, CART<br>
+    - Impurity<br>
+    - Min-Cost Pruning<br>
+
+    <h5>Ensembles/Bagging</h5>
+    - Intro<br>
+    - Ex: Bagging vs 1 Estimator<br>
+    - Random Forests<br>
+    - Extra Trees<br>
+    - Parameters<br>
+    - Parallel Execution<br>
+    - Rank aka Feature Importance<br>
+    - Ex: Extra Trees<br>
+    - Random Tree Embedding (RTE)<br>
+    - Ex: RTE - Hashing features<br>
+
+    <h5>ensembles/Boosting</h5>
+    - AdaBoost<br>
+    - Ex: SAMME vs SAMME.R<br>
+    - AdaBoost (Multiclass)<br>
+    - Ex: 2-class Adaboost<br>
+    - Ex: DT Rgrssn with AdaBoost<br>
+    - Gradient Boosted DTs<br>
+    - Histogram Gradient Boosting (HGB)<br>
+    - Ex: HGB - Category Features<br>
+    - HGB - Monotonic Constraints<br>
+    - HGB Performance<br>
+    - Stacked Generalization (SG)<br>
+
+    <h5>Ensembles/Voting</h5>
+    - Hard Voting Classifier<br>
+    - Soft Voting Classifier<br>
+    - Voting Regressor<br>
+
+    <h5>General Stacking</h5>
+    - Intro<br>
+
+    <h5>Multiclass, Multioutput</h5>
+    - Intro<br>
+    - Label Binarization<br>
+    - One vs Rest (OVR) Classifiers<br>
+    - Multilabel Classifiers<br>
+    - One vs One (OVO) Classifiers<br>
+    - Output Code Classifiers<br>
+    - Multioutput Classifiers<br>
+    - Classifier Chains<br>
+    - Multitask Classifiers<br>
+    - Mutlioutput Regression<br>
+    - Regressor Chaining<br>
+
+    <h5>Feature Selection (FS)</h5>
+    - Removing Low-Variance Feats<br>
+    - Univariate FS<br>
+    - Recursive FS<br>
+    - FS from a Model<br>
+    - FS from a Tree (Impurity Based)<br>
+    - Sequential FS<br>
+    - FS & Pipelines<br>
+
+    <h5>Unsupervised Learning</h5>
+    - Intro<br>
+    - Self-Training Classifiers<br>
+    - Threshold vs Self-Training<br>
+    - Ex: Decision Boundaries<br>
+    - Label Propagation/Spreading<br>
+
+
+    <h5>Isotonic Regression</h5>
+    - Intro<br>
+
+    <h5>Calibration Curves</h5>
+    - Intro<br>
+    - Ex: Classifier Comparison<br>
+    - Calibration<br>
+    - Cross Validation<br>
+    - Metrics<br>
+    - Regressors<br>
+    - Multiclass Support<br>
+
+    <h5>Perceptrons</h5>
+    <h5>Gaussian Mixtures</h5>
+    <h5>Manifolds</h5>
+    <h5>Clustering</h5>
+    <h5>Clustering Metrics</h5>
+    <h5>Biclustering</h5>
+    <h5>Component Analysis</h5>
+    <h5>Covariance</h5>
+    <h5>Novelties & Outliers</h5>
+    <h5>Density Estimation</h5>
+    <h5>Restricted Boltzmann Machines</h5>
+    <h5>Cross Validation</h5>
+    <h5>Hyperparameters</h5>
+    <h5>Metrics</h5>
+    <h5>Classification Metrics</h5>
+    <h5>Multilabel Ranking Metrics</h5>
+    <h5>Regression Metrics</h5>
+    <h5>Dummy Metrics</h5>
+    <h5>Validation & Learning Curves</h5>
+    <h5>Inspection Plots</h5>
+    <h5>Permutation Feature Plots</h5>
+    <h5>ROC Curve</h5>
+    <h5>Partial Dependence Plots</h5>
+    <h5>Display Objects</h5>
+    <h5>Composite Tranforms</h5>
+    <h5>Feature Extraction</h5>
+    <h5>Feature Extraction (Text)</h5>
+    <h5>Feature Extraction (Image Patch)</h5>
+    <h5>Preprocessing</h5>
+    <h5>Imputation</h5>
+    <h5>Random Projection</h5>
+    <h5>Kernel Approximation</h5>
+    <h5>Pairwise Ops</h5>
+    <h5>Transform Prediction Targets</h5>
+    <h5>Example Datasets</h5>
+    <h5>Artificial Data Generators</h5>
+    <h5>Other Datasets</h5>
+    <h5>Scaling</h5>
+    <h5>Performance</h5>
+    <h5>Parallelism</h5>
+    <h5>File Persistence</h5>
+
+</div>
+</body>
