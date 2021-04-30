@@ -24,3 +24,19 @@
 | 15 | **Isotonic Regression** | Example |
 | 16 | **Calibration Curves** | Intro/Example, Cross-Validation, Metrics <br> Regressors |
 | 17 | **Perceptrons** | Intro, Classification, Regression, Regularization, Training, Complexity, Tips |
+| 21 | **Gaussian Mixtures (GMs)** | Expectation Maximization <br> Variational Bayes GM |
+| 22 | **Manifolds** | Isomap, Locally Linear Embedding (LLE), Modified LLE, Hessian LLE, Local Tangent Space Alignment (LTSA), Multidimensional Scaling (MDS)<br> Random Trees Embedding, Spectral Embedding, t-SNE, Neighborhood Components Analysis (NCA) |
+| 23 | **Clustering** | K-Means, Voronoi Diagrams <br> Affinity Propagation <br> Mean Shift <br> Spectral Clustering <br> Agglomerative Clustering, Dendrograms, Connectivity Constraints, Distance Metrics <br> DBSCAN, Optics, Birch |
+| 23a | **Clustering Metrics** | Rand Index, Mutual Info Score, Homogeneity, Completeness, V-Measure, Fowlkes-Mallows, Silhouette Coefficient, Calinski-Harabasz, Davies-Bouldin <br> Contingency Matrix <br> Pair Confusion Matrix |
+| 24 | **Biclustering** | Spectral Co-Clustering, Spectral Bi-Clustering <br> Metrics |
+| 25 | **Component Analysis / Matrix Factorization** | PCA, Incremental PCA, PCA w/ Random SVD, PCA w/ Sparse Data, Kernel PCA <br> Dimension Reduction Comparison <br> Truncated SVD / LSA <br> Dictionary Learning <br> Factor Analysis <br> Independent Component Analysis <br> Non-Negative Matrix Factorization (NNMF) <br> Latent Dirichlet Allocation (LDA) |
+| 26 | **Covariance** | Empirical CV, Shrunk CV, Max Likelihood Estimation (MLE) <br> Ledoit-Wolf Shrinkage, Oracle Approximating Shrinkage <br> Sparse Inverse CV, aka Precision Matrix <br> Mahalanobis Distance |
+| 27 | **Novelties & Outliers** | One-Class SVMs, Elliptic Envelope, Isolation Forest, Local Outlier Factor |
+| 28 | **Density Estimation (DE)** | Histograms, Kernel DE |
+| 29 | **Restricted Boltzmann Machines (RBMs)** | Intro, Training |
+| 31 | **Cross Validation (CV)** | Intro, Metrics <br> Parameter Estimation, Pipelines, Prediction Plots, Nesting <br> K-Fold, Stratified K-Fold <br> Leave One Out, Leave P Out <br> Class Label CV <br> Grouped Data CV <br> Predefined Splits <br> Time Series Splits <br> Permutation Testing <br> Visualizations |
+| 32 | **Parameter Tuning** | Grid Search, Randomized Optimization <br> Successive Halving <br> Composite Estimators & Parameter Spaces <br> Alternative to Brute Force <br> Info Criteria (AIC, BIC) |
+| 33 | **Metrics & Scoring (Intro)** | scoring, make_scorer | 
+| 33a | **Classification Metrics** | Accuracy, Top-K Accuracy, Balanced Accuracy <br> Cohen's Kappa <br> Confusion Matrix <br> Classification Report <br> Hamming Loss <br> Precision, Recall, F-Measure, Precision-Recall Curve, Average Precision <br> Jaccard Similarity, Hinge Loss, Log Loss, Matthews Correlation Coefficient <br> Receiver Operating Characteristic (ROC) Curves, ROC-AUC <br> Detection Error Tradeoff (DET), Zero One Loss, Brier Score |
+| 33b | **Multilabel Ranking Metrics** | Coverage Error, Label Ranking Avg Precision (LRAP), Label Ranking Loss <br> Discounted Cumulative Gain (DCG), Normalized DCG |
+| 33c | **Regression Metrics** | Explained Variance, Max Error, Mean Absolute Error (MAE), Mean Squared Error (MSE), Mean Squared Log Error (MSLE), Mean Absolute Pct Error (MAPE) <br> R^2 score, aka Coefficient of Determination  <br> Tweedie Deviances |
