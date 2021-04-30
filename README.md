@@ -40,3 +40,13 @@
 | 33a | **Classification Metrics** | Accuracy, Top-K Accuracy, Balanced Accuracy <br> Cohen's Kappa <br> Confusion Matrix <br> Classification Report <br> Hamming Loss <br> Precision, Recall, F-Measure, Precision-Recall Curve, Average Precision <br> Jaccard Similarity, Hinge Loss, Log Loss, Matthews Correlation Coefficient <br> Receiver Operating Characteristic (ROC) Curves, ROC-AUC <br> Detection Error Tradeoff (DET), Zero One Loss, Brier Score |
 | 33b | **Multilabel Ranking Metrics** | Coverage Error, Label Ranking Avg Precision (LRAP), Label Ranking Loss <br> Discounted Cumulative Gain (DCG), Normalized DCG |
 | 33c | **Regression Metrics** | Explained Variance, Max Error, Mean Absolute Error (MAE), Mean Squared Error (MSE), Mean Squared Log Error (MSLE), Mean Absolute Pct Error (MAPE) <br> R^2 score, aka Coefficient of Determination  <br> Tweedie Deviances |
+| 33d | **Dummy Metrics** | Dummy Classifiers, Dummy Regressors | 
+| 34 | **Validation Curves** | Example, Validation Curve, Learning Curve | 
+| 41 | **Viz/Inspection** | 2D PDPs, 3D PDPs <br> Individual Conditional Expectation (ICE) Plot |
+| 42 | **Viz/Permutations** | Permutation Feature Importance (PFI) <br> Impurity vs Permutation Metrics | 
+| 50a | **Viz/ROC Curves** | ROC Curve |
+| 50b | **Viz/custom PDP Plots** | Example |
+| 50c | **Vis/Classification metrics** | Confusion Matrix, ROC Curve, Precision-Recall Curve | 
+| 61 | **Composite Transformers** | Pipelines, Caching, Examples <br> Regression Target xforms <br> Feature Unions <br> Column Transformers |
+| 62a | **Text Feature Extraction (FE)** | Bag of Words (BoW) <br> Sparsity, Count Vectorizer, Stop Words, Tf-Idf <br> Binary Markers, Text file decoding, Hashing Trick <br> Out-of-core Scaling, Custom Vectorizers |
+| 62b | **Image Patc
