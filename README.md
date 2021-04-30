@@ -48,5 +48,18 @@
 | 50b | **Viz/custom PDP Plots** | Example |
 | 50c | **Vis/Classification metrics** | Confusion Matrix, ROC Curve, Precision-Recall Curve | 
 | 61 | **Composite Transformers** | Pipelines, Caching, Examples <br> Regression Target xforms <br> Feature Unions <br> Column Transformers |
-| 62a | **Text Feature Extraction (FE)** | Bag of Words (BoW) <br> Sparsity, Count Vectorizer, Stop Words, Tf-Idf <br> Binary Markers, Text file decoding, Hashing Trick <br> Out-of-core Scaling, Custom Vectorizers |
-| 62b | **Image Patc
+| 62a | **Text Feature Extraction** | Bag of Words (BoW) <br> Sparsity, Count Vectorizer, Stop Words, Tf-Idf <br> Binary Markers, Text file decoding, Hashing Trick <br> Out-of-core Scaling, Custom Vectorizers |
+| 62b | **Image Patch Extraction** | Extract from Patches, Reconstruct from Patches <br> Connectivity Graphs |
+| 63 | **Data Preprocessing** | Scaling, Quantile Transforms, Power Maps (Box-Cox, Yeo-Johnson) <br> Category Coding, One-Hot Coding <br> Quantization aka Binning <br> Feature Binarization |
+| 64 | **Missing Value Imputation** | Univariate, Multivariate, Multiple-vs-Single, Nearest-Neighbors <br> Marking Imputed Values | 
+| 66 | **Dimensionality Reduction/Random Projections** | Johnson-Lindenstrauss lemma <br> Gaussian RP, Sparse RP, Empirical Validation |
+| 67 | **Kernel Approximations** | Nystroem <br> RBF Sampler, Additive Chi-Squared Sampler, Skewed Chi-Squared Sampler  <br> Polynomial Sampling - Tensor Sketch |
+| 68 | **Pairwise Ops** | Distances vs Kernels <br> Cosine Similarity, Linear / Polynomial / Sigmoid / RBF / Laplacian / Chi-Squared kernels |
+| 69 | **Transforming Prediction Targets** | Label Binarization, Multilabel Binarization, Label Encoding |
+| 71 | **Example Datasets** | Boston, Iris, Diabetes, Digits, Linnerud, Wine, Breast Cancer <br> Olivetti faces, 20 newsgroups, Labeled faces, Forest covertypes, Reuters corpus, KDD, Cal housing |
+| 73 | **Artificial Data** | random-nclass-data, Gaussian blobs, Gaussian quantiles, Circles, Moons, Multilabel class data, Hastie data <br> BiClusters, Checkerboards <br> Regression, Friedman1/2/3 <br> S-Curve, Swiss Roll <br> Low-Rank Matrix, Sparse Coded Signal, Sparse Symmetric Positive Definite (SPD) Matrix | 
+| 74 | **Other Data** | Sample images, SVMlight/LibSVM formats, OpenML <br> pandas.io, scipy.io, numpy.routines.io, scikit-image, imageio, scipy.io.wavfile |
+| 81 | **Scaling** | Out-of-core ops (**BUG = TODO**) | 
+| 82 | **Latency** | Bulk-vs-atomic ops, Latency vs Validation, Latency vs #Features, Latency vs Datatype, Latency vs Feature Extraction <br> Linear Algebra Libs (BLAS, LAPACK, ATLAS, OpenBLAS, MKL, vecLib) |
+| 83 | **Parallelism** | JobLib, OpenMP, NumPy <br> Oversubscription <br> config switches |
+| 90 | **Persistence** | Pickle, Joblib |
