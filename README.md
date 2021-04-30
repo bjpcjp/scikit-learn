@@ -14,3 +14,5 @@
 | 08 | **Cross Decomposition** | Partial Least Squares (PLS) <br> Canonical PLS <br> SVD PLS <br> PLS Regression <br> Canonical Correlation Analysis (CCA) |
 | 09 | **Naive Bayes (NB)** | Gaussian NB <br> Multinomial NB <br> Complement NB <br> Bernoulli NB <br> Categorical NB <br> Out-of-core fitting |
 | 10 | **Decision Trees (DTs)** | Classifiers <br> Graphviz <br> Regressions <br> Multiple Outputs <br> Extra Trees <br> Complexity, Algorithms <br> Gini, Entropy, Misclassification <br> Minimal cost-complexity Pruning |
+| 11a | **Ensembles/Bagging** | Methods <br> Random Forests, Extra Trees <br> Parameters, Parallel Execution, Feature Importance <br> Random Tree Embedding
+| 11b | **Ensembles/Boosting** | AdaBoost <br> Gradient Boosting (GBs) <br> GB Classifiers <br> GB Regressions <br> Tree Sizes, Math (TODO), Loss Functions, Shrinkage, Subsampling, Feature Importance <br> Histogram Gradient Boosting (HGB) <br> HGB - Monotonic Constraints <br> Stacked Generalization |
