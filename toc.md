@@ -1,6 +1,7 @@
 
-### Getting Started
-
+## Getting Started
+## [Changes (v1.3.2)](https://scikit-learn.org/stable/whats_new/v1.3.html)
+## User Guide
 ### Linear Models
 - Least Squares
 - Least Squares (Non-Neg)
@@ -150,7 +151,7 @@
 - Random Tree Embedding (RTE)
 - Ex: RTE - Hashing features
 
-### ensembles/Boosting
+### Ensembles/Boosting
 - AdaBoost
 - Ex: SAMME vs SAMME.R
 - AdaBoost (Multiclass)
@@ -200,11 +201,10 @@
 - Ex: Decision Boundaries
 - Label Propagation/Spreading
 
-
 ### Isotonic Regression
 - Intro
 
-### Calibration Curves
+### Calibration Curves (api: [sklearn.calibration](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.calibration))
 - Intro
 - Ex: Classifier Comparison
 - Calibration
@@ -212,6 +212,7 @@
 - Metrics
 - Regressors
 - Multiclass Support
+- [examples](https://scikit-learn.org/stable/auto_examples/index.html#calibration)
 
 ### Perceptrons
 - Intro
@@ -248,7 +249,7 @@
 - t-SNE
 - Neighborhood Components Analysis (NCA)
 
-### Clustering
+### Clustering (api: [sklearn.cluster](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.cluster))
 - Intro
 - K-Means
 - K-Means Assumptions vs Performance
@@ -282,6 +283,7 @@
 - Spectral Co-Clustering
 - Spectral Bi-Clustering
 - Metrics
+- [examples](https://scikit-learn.org/stable/auto_examples/index.html#biclustering)
 
 ### Component Analysis / Matrix Factorization
 - Principal Component Analysis (PCA)
@@ -309,7 +311,6 @@
 - Oracle Approximating (OA) Shrinkage
 - Precision Matrix
 - Min Covariance Determinants (MCDs)
-
 
 ### Novelties & Outliers
 - Intro
@@ -423,7 +424,7 @@
 - Intro
 - Impurity vs Permutations
 
-### ROC Curve
+### ROC Curves
 - Examples
 
 ### Partial Dependence Plots
@@ -493,7 +494,6 @@
 - Additive Chi-Squared Sampler
 - Skewed Chi-Squared Sampler
 - Polynomial Sampling / TensorSketch
-
 
 ### Pairwise Ops
 - Distances vs Kernels
