@@ -1,4 +1,4 @@
-### scikit-learn v0.24.1
+### scikit-learn contents
 
 | Section | Title | Contents |
 | ------- | ----- | -------- |
