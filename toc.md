@@ -1,11 +1,50 @@
 
 ## Getting Started
 ## [Changes (v1.3.2)](https://scikit-learn.org/stable/whats_new/v1.3.html)
+## [Dev Guide](https://scikit-learn.org/dev/developers/index.html)
+### contributing
+### Creating a minimal reproducer
+### Building an estimator
+### Tips
+### Utilities
+- [input validations](https://scikit-learn.org/dev/developers/utilities.html#validation-tools)
+
+- [linear algebra & array ops](https://scikit-learn.org/dev/developers/utilities.html#efficient-linear-algebra-array-operations)
+
+- [random sampling](https://scikit-learn.org/dev/developers/utilities.html#efficient-random-sampling)
+
+- [sparse matrices](https://scikit-learn.org/dev/developers/utilities.html#efficient-routines-for-sparse-matrices)
+
+- [graphs](https://scikit-learn.org/dev/developers/utilities.html#graph-routines)
+
+- [testing](https://scikit-learn.org/dev/developers/utilities.html#testing-functions)
+
+- [multiclass/multilabel](https://scikit-learn.org/dev/developers/utilities.html#multiclass-and-multilabel-utility-function)
+
+- [general helpers](https://scikit-learn.org/dev/developers/utilities.html#helper-functions)
+
+- [hash functions](https://scikit-learn.org/dev/developers/utilities.html#hash-functions)
+
+- [warnings & exceptions](https://scikit-learn.org/dev/developers/utilities.html#warnings-and-exceptions)
+
+### Speed optimization
+- code profiling
+- memory profiling
+- cython
+- profiling compiled extensions
+- multicore ops with __joblib.Parallel__
+
 ## User Guide
 ### Linear Models
-- Least Squares
-- Least Squares (Non-Neg)
-- Ridge Regression, Classification
+- [Least Squares](https://scikit-learn.org/dev/modules/linear_model.html#ordinary-least-squares)
+    - Least Squares (Non-Negative)
+    - Complexity
+    
+- Ridge
+    - Regression
+    - Classification
+    - Complexity
+
 - Ridge Regression w/ CV
 - Lasso Regression
 - Lasso Regression (Multitask)
