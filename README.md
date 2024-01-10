@@ -23,7 +23,7 @@
 | 11d | **Ensembles/General Stacking** | Summary |
 | 12 | **Multiclass/Multioutput Problems** | Label Binarization <br> One vs Rest (OvR), One vs One (OvO) Classification <br> Output Codes <br> Multilabel, Multioutput Classification <br> Classifier Chains <br> Multioutput Regressions <br> Regression Chains |
 | 13 | **Feature Selection (FS)** | Removing Low-Variance Features <br> Univariate FS <br> | Recursive FS <br> Model-based FS <br> Impurity-based FS <br> Sequential FS <br> Pipeline Usage |
-| 14 | **Semi-Supervised/Unsupervised Learning** | Self-Training Classifier <br> Label Propagation <br> Label Spreading |
+| 14 | **Semi-Supervised** | Self-Training Classifier <br> Label Propagation <br> Label Spreading |
 | 15 | **Isotonic Regression** | Example |
 | 16 | **Calibration Curves** | Intro/Example <br> Cross-Validation <br> Metrics <br> Regressors |
 | 17 | **Perceptrons** | Intro <br> Classification <br> Regression <br> Regularization <br> Training <br> Complexity <br> Tips |
