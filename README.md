@@ -7,7 +7,7 @@
 | 01a     | **Logistic Regression**   | Basics, Examples |
 | 01b     | **Splines**               |        |
 | 01c     | **Quantile Regression**   | Examples 
-                                        QR vs linear regression
+                                        QR vs linear regression |
 | 01d     | **Outliers**              | Robustness
                                         RANSAC
                                         Huber
