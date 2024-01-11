@@ -3,19 +3,19 @@
 | Section | Title | Contents |
 | ------- | ----- | -------- |
 | 00      | **Getting Started** | Estimators, Transformers, Preprocessors, Pipelines, Model Evaluation, Parameter Searches, Next Steps |
-| 01      | **Linear Models** | OLS, LS <br> 
-                                Ridge <br> 
-                                Lasso <br> 
-                                Elastic-Net <br> 
-                                Least Angle Regression (LARS) <br> 
-                                LARS Lasso <br> 
-                                OMP <br>
-                                Naive Bayes <br> 
-                                Generalized Linear Models (GLM) <br> 
-                                Tweedie Models <br> 
-                                Stochastic Gradient Descent (SGD) <br> 
-                                Perceptrons <br> 
-                                Passive-Aggressive Algos <br> 
+| 01      | **Linear Models** | OLS, LS
+                                Ridge 
+                                Lasso 
+                                Elastic-Net 
+                                Least Angle Regression (LARS) 
+                                LARS Lasso 
+                                OMP
+                                Naive Bayes 
+                                Generalized Linear Models (GLM) 
+                                Tweedie Models
+                                Stochastic Gradient Descent (SGD) 
+                                Perceptrons
+                                Passive-Aggressive Algos 
                                 Polynomial Regression |
 | 01a     | **Logistic Regression**   | Basics, Examples |
 | 01b     | **Splines**               |        |
