@@ -18,7 +18,7 @@
 | 09 | **Naive Bayes (NB)** | Gaussian NB <br> Multinomial NB <br> Complement NB <br> Bernoulli NB <br> Categorical NB <br> Out-of-core fitting |
 | 10 | **Decision Trees (DTs)** | Classifiers <br> Graphviz <br> Regressions <br> Multiple Outputs <br> Extra Trees <br> Complexity, Algorithms <br> Gini, Entropy, Misclassification <br> Minimal cost-complexity Pruning |
 | 11a | **Ensembles/Bagging** | Methods <br> Random Forests <br> Extra Trees <br> Parameters <br> Parallel Execution <br> Feature Importance <br> Random Tree Embedding
-| 11b | **Ensembles/Boosting** | AdaBoost <br> Gradient Boosting (GBs) <br> GB Classifiers <br> GB Regressions <br> Tree Sizes <br> Loss Functions <br> Shrinkage <br> Subsampling <br> Feature Importance <br> Histogram Gradient Boosting (HGB) <br> HGB - Monotonic Constraints <br> Stacked Generalization |
+| 11b | **Ensembles/Boosting** | Gradient Boosting (GBs) <br> GB Classifiers <br> GB Regressions <br> Tree Sizes <br> Loss Functions <br> Shrinkage <br> Subsampling <br> Feature Importance <br> Histogram Gradient Boosting (HGB) <br> HGB - Monotonic Constraints <br> Stacked Generalization |
 | 11ba | **Ensembles/Boosting/Adaboost** | examples |
 | 11c | **Ensembles/Voting** | Hard Voting <br> Soft Voting <br> Voting Regressor |
 | 11d | **Ensembles/General Stacking** | Summary |
