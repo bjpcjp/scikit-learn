@@ -6,46 +6,46 @@
 | 01      | **Linear Models** | OLS, Ridge, Lasso, Elastic-Net, Least Angle Regression (LARS), LARS Lasso, OMP, Naive Bayes, Generalized Linear Models (GLM), Tweedie Models, Stochastic Gradient Descent (SGD), Perceptrons, Passive-Aggressive Algos, Polynomial Regression |
 | 01a     | **Logistic Regression**   | Basics, Examples |
 | 01b     | **Splines**               |        |
-| 01c     | **Quantile Regression**   | Examples <br>
-                                        QR vs linear regression<br>
-| 01d     | **Outliers**              | Robustness <br>
-                                        RANSAC <br>
-                                        Huber <br>
-                                        Thiel-Sen <br> |
-| 02      | **Discriminant Analysis** | LDA <br> 
-                                        QDA <br> 
-                                        Math Foundations <br> 
-                                        Shrinkage <br> 
+| 01c     | **Quantile Regression**   | Examples 
+                                        QR vs linear regression
+| 01d     | **Outliers**              | Robustness
+                                        RANSAC
+                                        Huber
+                                        Thiel-Sen |
+| 02      | **Discriminant Analysis** | LDA 
+                                        QDA 
+                                        Math Foundations 
+                                        Shrinkage
                                         Estimators |
 | 03      | **Kernel Ridge Regression**        | KRR vs SVR |
-| 04      | **Support Vector Machines (SVMs)** | Classifiers (SVC, NuSVC, LinearSVC) <br> 
-                                                 Regressors (SVR, NuSVR, LinearSVR) <br> 
+| 04      | **Support Vector Machines (SVMs)** | Classifiers (SVC, NuSVC, LinearSVC) 
+                                                 Regressors (SVR, NuSVR, LinearSVR) 
                                                  Scoring, Weights,  Complexity, Kernels |
-| 05      | **Stochastic Gradient Descent (SGD)** | Classifier <br> 
-                                                    Classifier (Multiclass) <br> 
-                                                    Classifier (Weighted) <br> 
-                                                    Solvers <br> 
-                                                    Regressors <br> 
+| 05      | **Stochastic Gradient Descent (SGD)** | Classifier
+                                                    Classifier (Multiclass) 
+                                                    Classifier (Weighted) 
+                                                    Solvers
+                                                    Regressors 
                                                     Sparse Data; Complexity; Stopping/Convergence; Tips |
-| 06      | **K Nearest Neighbors (KNN)**         | Algos (Ball Tree, KD Tree, Brute Force) <br> 
-                                                    Radius-based Classifiers <br> 
-                                                    Radius-based Regressors <br> 
-                                                    Nearest Centroid Classifiers <br> 
-                                                    Caching <br> 
+| 06      | **K Nearest Neighbors (KNN)**         | Algos (Ball Tree, KD Tree, Brute Force) 
+                                                    Radius-based Classifiers
+                                                    Radius-based Regressors 
+                                                    Nearest Centroid Classifiers 
+                                                    Caching
                                                     Neighborhood Components Analysis (NCA) |
-| 07      | **Gaussian Processes (GPs)**          | Regressors <br> 
-                                                    Classifiers <br> 
+| 07      | **Gaussian Processes (GPs)**          | Regressors 
+                                                    Classifiers 
                                                     Kernels |
-| 08      | **Cross Decomposition**               | Partial Least Squares (PLS) <br> 
-                                                    Canonical PLS <br> 
-                                                    SVD PLS <br> 
-                                                    PLS Regression <br> 
+| 08      | **Cross Decomposition**               | Partial Least Squares (PLS) 
+                                                    Canonical PLS
+                                                    SVD PLS
+                                                    PLS Regression 
                                                     Canonical Correlation Analysis (CCA) |
-| 09      | **Naive Bayes (NB)**                  | Gaussian NB <br> 
-                                                    Multinomial NB <br> 
-                                                    Complement NB <br> 
-                                                    Bernoulli NB <br> 
-                                                    Categorical NB <br> 
+| 09      | **Naive Bayes (NB)**                  | Gaussian NB 
+                                                    Multinomial NB 
+                                                    Complement NB 
+                                                    Bernoulli NB 
+                                                    Categorical NB 
                                                     Out-of-core fitting |
 | 10      | **Decision Trees (DTs)** | Classifiers <br> Graphviz <br> Regressions <br> Multiple Outputs <br> Extra Trees <br> Complexity, Algorithms <br> Gini, Entropy, Misclassification <br> Minimal cost-complexity Pruning |
 | 11a     | **Ensembles/Bagging** | Methods <br> Random Forests <br> Extra Trees <br> Parameters <br> Parallel Execution <br> Feature Importance <br> Random Tree Embedding
