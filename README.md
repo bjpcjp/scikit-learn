@@ -6,27 +6,12 @@
 | 01      | **Linear Models** | OLS, Ridge, Lasso, Elastic-Net, Least Angle Regression (LARS), LARS Lasso, OMP, Naive Bayes, Generalized Linear Models (GLM), Tweedie Models, Stochastic Gradient Descent (SGD), Perceptrons, Passive-Aggressive Algos, Polynomial Regression |
 | 01a     | **Logistic Regression**   | Basics, Examples |
 | 01b     | **Splines**               |        |
-| 01c     | **Quantile Regression**   | Examples 
-                                        QR vs linear regression |
-| 01d     | **Outliers**              | Robustness
-                                        RANSAC
-                                        Huber
-                                        Thiel-Sen |
-| 02      | **Discriminant Analysis** | LDA 
-                                        QDA 
-                                        Math Foundations 
-                                        Shrinkage
-                                        Estimators |
+| 01c     | **Quantile Regression**   | Examples, QR vs linear regression |
+| 01d     | **Outliers**              | Robustness, RANSAC, Huber, Thiel-Sen |
+| 02      | **Discriminant Analysis** | LDA, QDA, Math Foundations, Shrinkage, Estimators |
 | 03      | **Kernel Ridge Regression**        | KRR vs SVR |
-| 04      | **Support Vector Machines (SVMs)** | Classifiers (SVC, NuSVC, LinearSVC) 
-                                                 Regressors (SVR, NuSVR, LinearSVR) 
-                                                 Scoring, Weights,  Complexity, Kernels |
-| 05      | **Stochastic Gradient Descent (SGD)** | Classifier
-                                                    Classifier (Multiclass) 
-                                                    Classifier (Weighted) 
-                                                    Solvers
-                                                    Regressors 
-                                                    Sparse Data; Complexity; Stopping/Convergence; Tips |
+| 04      | **Support Vector Machines (SVMs)** | Classifiers, Regressors, Scoring, Weights, Complexity, Kernels |
+| 05      | **Stochastic Gradient Descent (SGD)** | Classifiers, Solvers, Regressors, Sparse Data; Complexity; Stopping/Convergence; Tips |
 | 06      | **K Nearest Neighbors (KNN)**         | Algos (Ball Tree, KD Tree, Brute Force) 
                                                     Radius-based Classifiers
                                                     Radius-based Regressors 
